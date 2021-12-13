@@ -27,4 +27,8 @@ public class Kids extends ManKind {
 		System.out.println("I'm "+ yearsOld +" years old.");
 	}
 	
+	public void isEmployeed(){  //方法重写
+		System.out.println("Kids should study and no job");
+	}
+	
 }
