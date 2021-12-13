@@ -1,0 +1,9 @@
+package com.baidu.值传递问题;
+
+public class PassObject {
+	
+	
+	public void printAreas(Circle c,int time) {
+		
+	}
+}

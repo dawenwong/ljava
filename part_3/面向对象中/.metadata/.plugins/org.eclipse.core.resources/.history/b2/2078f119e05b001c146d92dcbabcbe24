@@ -1,0 +1,5 @@
+package com.oopmid.继承性练习;
+
+public class Kids extends ManKind {
+
+}

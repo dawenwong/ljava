@@ -1,0 +1,23 @@
+package com.baidu;
+
+public class 可变个数形参 {
+	public static void main(String[] args) {
+		可变个数形参 test = new 可变个数形参();
+		
+		test.show(12);
+		//test.show("123");
+		test.show("hello","world");
+	}
+	
+	public void show(int i) {
+		System.out.println(i);
+	}
+	
+	public void show(String i) {
+		System.out.println(i);
+	}
+	
+	public void show(String ... strs ) { //...就是可变参数形参的表示方式
+		System.out.println(strs);
+	}
+}

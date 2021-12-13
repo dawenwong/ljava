@@ -1,0 +1,31 @@
+package com.baidu.递归;
+/*
+ * 
+ * 
+ * -递归的使用
+ * -一种隐式循环
+ * -递归使用一定要注意结束条件，不然就变成死循环
+ * 
+ * */
+public class Recursion {
+	
+	public static void main(String[] args) {
+		Recursion r = new Recursion();
+		int val = r.getSum(100);
+		System.out.println(val);
+	}
+	
+	
+	
+	public int getSum(int n) {
+		if(n == 1) {
+			return 1;
+		}else {
+			
+			return n += getSum(n-1);
+		}
+		
+		
+	}
+	
+}

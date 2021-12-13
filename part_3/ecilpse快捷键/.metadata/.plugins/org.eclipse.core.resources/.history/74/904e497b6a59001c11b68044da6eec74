@@ -1,0 +1,12 @@
+package com.eclipse.shortcutkey;
+
+public class shortcutKey1 {
+	//设置任意字符提示window->preference ->Java->Editor->content assist ->auto activation trigger for java 
+	//里面添加a-z的字母和“.”
+	
+	public static void main(String[] args) {
+		String str = new String();
+		str = "1234";
+		System.out.println(str);
+	}
+}

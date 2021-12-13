@@ -1,0 +1,31 @@
+package com.thisKeyWord.this关键字;
+
+public class Boys {
+	private String name;
+	private int age;
+
+	//快捷方式生成get和set方法，
+	//方法一：Source->Generate Getters and Setters
+	//方法二：Alt + Shift + S 组合键 然后选择
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public int getAge() {
+		return this.age;
+	}
+
+
+
+	
+	
+}

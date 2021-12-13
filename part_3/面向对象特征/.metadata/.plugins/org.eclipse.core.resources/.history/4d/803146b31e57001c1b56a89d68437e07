@@ -1,0 +1,8 @@
+package com.construct.构造器;
+
+public class Triangle {
+	
+	private double base;  //三角形底边长
+	private double height;  //高
+	
+}

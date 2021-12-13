@@ -1,0 +1,40 @@
+package com.construct.构造器;
+
+public class Triangle {
+	
+	private double base;  //三角形底边长
+	private double height;  //三角形高
+	
+	//构造器
+	public Triangle() {
+		
+	}
+	
+	public Triangle(double b,double h) {
+		base = b;
+		height = h;
+	}
+	
+	
+	//set和get方法
+	public void setBase(double b) {
+		base = b;
+	}
+	
+	public double getBase() {
+		return base;
+	}
+	
+	public void setHeight(double h) {
+		
+		height = h;
+	}
+	
+	public double getHeight() {
+		
+		return height;
+		
+	}
+		
+	
+}

@@ -1,0 +1,21 @@
+package com.huhulu.封装性;
+
+public class Person {
+	//年龄
+	private int age;
+	
+	//setAge方法
+	public void setAge(int a) {
+		if(a >0 && a<130) {
+			age = a;
+		}else {
+			age = 18;
+		}	
+	}
+	
+	//getAge方法
+	
+	public int getAge() {
+		return age;
+	}
+}

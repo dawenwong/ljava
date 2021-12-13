@@ -1,0 +1,28 @@
+package com.oopmid.继承性;
+
+/*
+ * -extends 继承关键字
+ * 
+ * */
+public class Inheritance {
+	
+	public static void main(String[] args) {
+		
+		Person p1 = new Person();
+		p1.eat();
+		p1.sleep();
+		
+		System.out.println("*******************************");
+		
+		Student stu1 = new Student();
+		//Student stu1 = new Student("张三",18,"电焊");
+		//System.out.println(stu1.getName() + " "+stu1.getAge()+" "+stu1.getMajor());
+		stu1.setName("李四");
+		stu1.setAge(18);
+		stu1.setMajor("挖机");
+		System.out.println("姓名："+stu1.getName() + " 年龄："+stu1.getAge()+" 主修："+stu1.getMajor());
+		stu1.eat();
+		stu1.sleep();
+		stu1.study();
+	}
+}

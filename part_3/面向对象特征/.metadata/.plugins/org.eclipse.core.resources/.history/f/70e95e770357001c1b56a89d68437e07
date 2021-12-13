@@ -1,0 +1,48 @@
+package com.huhulu.封装性;
+
+public class Animal {
+	public static void main(String[] args) {
+		AnimalTest a1 = new AnimalTest();
+		
+		a1.name = "kris";
+		a1.age = 31;
+		a1.weight = 165.3;
+		
+		//a1.weight = -90;  //体重不能为负数，因此需要对整个属性进行限值
+		a1.setWeight(100);
+		
+		a1.weight = 1200;
+		
+		a1.eat();
+		a1.show();
+	}
+		
+}
+
+
+class AnimalTest{
+	
+	String name;
+	int age;
+	double weight;
+	
+	
+	//set方法
+	public void setWeight(double w) {
+		if(w > 30 && w < 350) {
+			weight = w;
+		}else {
+			weight = 100;
+		}
+	}
+	
+	
+	
+	public void eat() {
+		System.out.println("动物进食");
+	}
+	
+	public void show() {
+		System.out.println(name+" 今年"+age+"岁了，有"+ weight +"斤重!");
+	}
+}

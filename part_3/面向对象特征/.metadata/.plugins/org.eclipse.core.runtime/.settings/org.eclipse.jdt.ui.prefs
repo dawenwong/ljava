@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.thisKeyWord.this\u5173\u952E\u5B57.Boy"><rhs name\="com.thisKeyWord.this\u5173\u952E\u5B57.Boy"/></lhs><lhs name\="com.thisKeyWord.this\u5173\u952E\u5B57.Girl"><rhs name\="com.thisKeyWord.this\u5173\u952E\u5B57.Girl"/></lhs><lhs name\="com.exercise.exer1.Customer"><rhs name\="com.exercise.exer1.Customer"/></lhs><lhs name\="com.exercise.exer1.Account"><rhs name\="com.exercise.exer1.Account"/></lhs><lhs name\="com.exercise.exer2.Customer"><rhs name\="com.exercise.exer2.Customer"/></lhs><lhs name\="com.exercise.exer2.Account"><rhs name\="com.exercise.exer2.Account"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+markOccurrences=false
+org.eclipse.jdt.ui.formatterprofiles.version=19
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

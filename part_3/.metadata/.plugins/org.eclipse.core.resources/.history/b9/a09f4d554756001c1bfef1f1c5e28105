@@ -1,0 +1,31 @@
+package com.baidu.值传递问题;
+
+public class valTranfer {
+	public static void main(String[] args) {
+		
+		data d1 = new data();
+		d1.m = 10;
+		d1.n = 20;
+		
+		System.out.println("m = " + d1.m + ",  n = " + d1.n);
+		
+		valTranfer swap1 = new valTranfer();
+		swap1.swap(d1);
+		
+		System.out.println("m = " + d1.m + ",  n = " + d1.n);
+		
+	}
+	public void swap(data d) {
+		int temp = d.m;
+		d.m = d.n;
+		d.n = temp;
+	}
+	
+	
+}
+
+
+class data{
+	int m;
+	int n;
+}

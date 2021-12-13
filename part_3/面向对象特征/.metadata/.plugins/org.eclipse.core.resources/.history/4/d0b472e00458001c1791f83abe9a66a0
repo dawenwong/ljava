@@ -1,0 +1,28 @@
+package com.exercise.exer2;
+
+public class Account {
+	
+	private double balance;
+	
+	//构造器
+	public Account(double balance) {
+		this.balance = balance;
+	}
+	
+	
+	//getter
+	public double getBalance() {
+		return this.balance;
+	}
+	
+	//存钱
+	public void deposit(double amount) {
+		
+	} 
+	
+	//取钱
+	public void withdraw(double amount) {
+		
+	}
+	
+}

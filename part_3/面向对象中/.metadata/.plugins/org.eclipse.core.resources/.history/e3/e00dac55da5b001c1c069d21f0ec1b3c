@@ -1,0 +1,8 @@
+package com.oopmid.继承性;
+
+public class Mammal {
+	private void syso() {
+		// TODO Auto-generated method stub
+
+	}
+}

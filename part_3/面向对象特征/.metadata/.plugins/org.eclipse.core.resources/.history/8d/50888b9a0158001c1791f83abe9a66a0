@@ -1,0 +1,16 @@
+package com.exercise.exer1;
+
+public class customerTest {
+	public static void main(String[] args) {
+		
+		Customer cust = new Customer("James", "Harden");
+		
+		Account account = new Account(100, 2000, 0.0123);
+		
+		cust.setAccount(account);
+		
+		cust.getAccount().deposit(100);
+		cust.getAccount().withdraw(500);
+		cust.getAccount().deposit(3000);
+	}
+}

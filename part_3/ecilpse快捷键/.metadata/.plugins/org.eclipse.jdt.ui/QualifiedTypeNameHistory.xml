@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Number"/>
+<fullyQualifiedTypeName name="javax.swing.tree.AbstractLayoutCache"/>
+<fullyQualifiedTypeName name="javax.sql.rowset.serial.SerialDatalink"/>
+<fullyQualifiedTypeName name="javax.xml.crypto.NodeSetData"/>
+<fullyQualifiedTypeName name="javax.naming.ldap.HasControls"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.NumberUpSupported"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+</qualifiedTypeNameHistroy>

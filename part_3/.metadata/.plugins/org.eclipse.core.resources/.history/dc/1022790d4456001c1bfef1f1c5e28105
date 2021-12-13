@@ -1,0 +1,22 @@
+package com.baidu.值传递问题;
+
+public class 形参传值 {
+	public static void main(String[] args) {
+		int i = 10;
+		int j = 20;
+	
+         		changeVal();
+		
+		System.out.println("i = " + i + ";  j = " + j);
+	}
+	
+	
+	public void changeVal(int m,int n) {
+		int temp = m;
+		m = n;
+		n = temp;
+		
+		System.out.println("i = " + m + ";  j = " + n);
+	}
+	
+}

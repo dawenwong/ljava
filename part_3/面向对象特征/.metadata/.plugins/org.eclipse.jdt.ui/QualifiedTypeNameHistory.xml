@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="com.thisKeyWord.this关键字.Boy"/>
+<fullyQualifiedTypeName name="com.thisKeyWord.this关键字.Girl"/>
+<fullyQualifiedTypeName name="com.exercise.exer1.Customer"/>
+<fullyQualifiedTypeName name="com.exercise.exer2.Customer"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.exercise.exer2.Bank"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.exercise.exer1.Account"/>
+<fullyQualifiedTypeName name="com.exercise.exer2.Account"/>
+</qualifiedTypeNameHistroy>

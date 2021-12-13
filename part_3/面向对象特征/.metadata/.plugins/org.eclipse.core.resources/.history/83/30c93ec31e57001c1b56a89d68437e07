@@ -1,0 +1,12 @@
+package com.construct.构造器;
+
+public class TriangleTest {
+	public static void main(String[] args) {
+		Triangle  t1 = new Triangle();
+		
+		
+		
+		System.out.println("base： "+t1.getBase()+" ,height： "+t1.getHeight());
+	}
+
+}

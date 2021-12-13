@@ -1,0 +1,9 @@
+package com.exercise.exer1;
+
+public class Customer {
+	private String firstName;
+	private String lastName;
+	private Account account;
+	
+	
+}
