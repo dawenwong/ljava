@@ -55,6 +55,8 @@ public class Test {
 		 * instanceof关键字的使用
 		 * 
 		 * a instanceof A;判断a是否是A的实例,是：返回true，不是，返回fasle
+		 * 
+		 *  -为了避免向下转型时出现ClassCastException错误
 		 * **/
 		if(p2 instanceof Woman) {
 			Woman w1 = (Woman)p2;
@@ -67,6 +69,54 @@ public class Test {
 			m2.earMoney();
 			System.out.println("***********Man**********");
 		}
+		
+		// -练习：
+		// 编译时通过，运行时不通过
+//		Person p4 = new Woman();
+//		Man m3 = (Man)p4;
+		
+		// 编译通过，运行时也通过
+		Object obj = new Woman();
+		Person person1 = (Person)obj; 
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 		
 		
 	}
