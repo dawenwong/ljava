@@ -39,6 +39,34 @@ public class Test {
 		p3.setName("秋香");
 		p3.setAge(18);
 		System.out.println("name: "+p3.getName()+" age: "+p3.getAge());
+		// 有了对象的多态性后，内存中实际上是加载了子类特有的方法和属性，但是由于变量声明为父类，
+		//因此在编译时，只能调用父类中声明的属性和方法，子类特有的属性和方法不能调用。
+		
+		
+		// 如何才能调用子类的特有属性和方法？
+		Man m1 = (Man)p2;   //向下转型，使用强制类型转换
+		m1.earMoney();
+		
+		//使用强制转换可能出现ClassCastException异常
+		//Woman w1 = (Woman)p2;
+		//w1.shopping();
+		/*
+		 * 
+		 * instanceof关键字的使用
+		 * 
+		 * a instanceof A;判断a是否是A的实例,是：返回true，不是，返回fasle
+		 * **/
+		if(p2 instanceof Woman) {
+			Woman w1 = (Woman)p2;
+			w1.shopping();
+			System.out.println("***************woman*****************");
+		}
+		
+		if(p2 instanceof Man) {
+			Man m2 = (Man)p2;
+			m2.earMoney();
+			System.out.println("***********Man**********");
+		}
 		
 		
 	}
