@@ -50,7 +50,8 @@ public class Customer {
 			return false;
 		return true;
 	}
-	
+
+
 
 	
 	//自己手写
@@ -73,5 +74,17 @@ public class Customer {
 //		}
 //		return false;
 	//}
+	
+	//手动实现toString()方法
+//	@Override
+//	public String toString() {
+//		return "Customer[name = "+name+",age = "+age+"]";
+//	}
+	//自动实现
+	@Override
+	public String toString() {
+		return "Customer [name=" + name + ", age=" + age + "]";
+	}
+	
 	
 }
