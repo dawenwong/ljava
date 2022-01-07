@@ -39,7 +39,8 @@ package com.down.Static;
  *
  *5、static总结：
  *	在开发中如何确定一个属性是否为static或一个方法是否确定为static？
- *	属性：所有的对象共享一个属性不会随着对象的不同而不同，可以加上static修饰
+ *	属性：所有的对象共享一个属性不会随着对象的不同而不同，可以加上static修饰,
+ *		类中的常量也final修饰，也用static修饰，如Math类中public static final double PI = 3.14159265358979323846;
  *	方法：操作静态属性的方法，通常设置为静态方法，工具类中的方法习惯上声明为static，如：Math、Array、Collections等直接“类.方法”，
  *		就不用new一个对象后在使用其方法。
  * 
