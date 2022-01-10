@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.down.Block代码块.Person"/>
+    <fullyQualifiedTypeName name="java.util.zip.InflaterInputStream"/>
+    <fullyQualifiedTypeName name="com.down.Block代码块.Order"/>
+    <fullyQualifiedTypeName name="com.down.Final.FinalA"/>
+    <fullyQualifiedTypeName name="com.down.Final.FinalTest"/>
+    <fullyQualifiedTypeName name="com.down.抽象类与抽象方法.Person"/>
+    <fullyQualifiedTypeName name="com.down.抽象类与抽象方法.Student"/>
+    <fullyQualifiedTypeName name="java.util.function.IntToDoubleFunction"/>
+    <fullyQualifiedTypeName name="javax.swing.BoundedRangeModel"/>
+    <fullyQualifiedTypeName name="com.down.抽象类与抽象方法.Manager"/>
+    <fullyQualifiedTypeName name="com.down.抽象类与抽象方法.commonEmployee"/>
+    <fullyQualifiedTypeName name="com.down.抽象类与抽象方法.Worker"/>
+    <fullyQualifiedTypeName name="com.down.抽象类与抽象方法.Employee"/>
+    <fullyQualifiedTypeName name="java.nio.charset.CoderMalfunctionError"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="com.down.模板设计模式.Template"/>
+    <fullyQualifiedTypeName name="org.junit.platform.commons.annotation.Testable"/>
+    <fullyQualifiedTypeName name="com.down.模板设计模式.subTemplate"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="com.down.模板设计模式.Employee"/>
+    <fullyQualifiedTypeName name="com.down.模板设计模式.SalariedEmployee"/>
+    <fullyQualifiedTypeName name="com.down.模板设计模式.HourlyEmployee"/>
+    <fullyQualifiedTypeName name="com.down.模板设计模式.MyDate"/>
+    <fullyQualifiedTypeName name="org.junit.validator.PublicClassValidator"/>
+    <fullyQualifiedTypeName name="java.awt.JobAttributes.MultipleDocumentHandlingType"/>
+    <fullyQualifiedTypeName name="java.lang.ThreadDeath"/>
+    <fullyQualifiedTypeName name="com.down.内部类.Person.Dog"/>
+    <fullyQualifiedTypeName name="com.down.内部类.Person.Bird"/>
+    <fullyQualifiedTypeName name="com.down.内部类.Person"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+</qualifiedTypeNameHistroy>

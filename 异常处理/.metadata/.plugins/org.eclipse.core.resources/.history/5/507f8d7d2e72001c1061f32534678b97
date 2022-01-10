@@ -1,0 +1,11 @@
+package com.erroException.TryCatchFinally;
+/*
+ * java异常处理方式：
+ * 	方式一：try-catch-finally
+ * 
+ * 	方式二：throws + 异常处理
+ * 
+ * */
+public class tryCatchFinallyTest {
+	
+}

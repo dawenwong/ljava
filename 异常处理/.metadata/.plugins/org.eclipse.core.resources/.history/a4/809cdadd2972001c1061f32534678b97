@@ -1,0 +1,5 @@
+package com.erroException.Exception;
+
+public class ExceptionTest {
+
+}
