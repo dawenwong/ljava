@@ -12,7 +12,14 @@ import java.io.IOException;
  * 	异常代码后续的代码就不会执行了
  *  
  * 2.try-catch-finally 真正的将异常处理掉了，throws只是将异常抛给方法的调用者，并没有将异常真正的处理掉
+ * 3.开发中选择使用try-catch-finally 还是使用throws？
+ * 	3.1 如果父类中被重写的方法没有throws方式处理异常，则子类重写的方法也不能使用throws，意味着
+ * 		子类重写的方法中有异常，必须使用try-catch-finally方式处理。
+ * 	3.2 执行的方法中，先后又调用了另外的几个方法，这几个方法是递进关系执行的，建议这几个方法使用throws
+ * 		的方式进行处理，而执行的主方法可以考虑使用try-catch-finally方式处理
  * 
+ * try-catch-finally可以同时使用，语法上可行，但是选择其中一种可以了。
+ *	
  * 
  * */
 public class thorwsTest {
