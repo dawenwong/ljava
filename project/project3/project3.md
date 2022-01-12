@@ -65,3 +65,25 @@ ID		姓名		年龄		工资		职位		状态		奖金		股票			领用设备
 * ==团队中至多只能有一名架构师==
 * ==团队中至多只能有两名设计师==
 * ==团队中至多只能有三名程序员==
+
+---
+
+### 软件设计结构
+
+该软件由以下三个模块组成：
+<img src="C:\Users\15922\AppData\Roaming\Typora\typora-user-images\image-20220112191542400.png" alt="image-20220112191542400" style="zoom: 50%;" />
+
+>com.atguigu.team.view 模块为主控模块，负责菜单的显示和处理用户操作
+>com.atguigu.team.service 模块为实体对象（Employee及其子类如程序员等）的管理模块，NameListService和TeamService类分别用各自的数组来管理公司员工和开发团队成员对象
+>domain模块为Employee及其子类等JavaBean类所在的包
+
+---
+
+com.atguigu.team.domain模块中包含了所有实体类：
+
+<img src="C:\Users\15922\AppData\Roaming\Typora\typora-user-images\image-20220112191821852.png" alt="image-20220112191821852" style="zoom: 80%;" />
+
+其中程序员（Programmer）及其子类，均会领用某种电子设备（Equipment）。
+
+---
+
