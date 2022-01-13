@@ -24,4 +24,9 @@ public class Designer extends Programmer{
 
 		return getDetails() + "\t设计师\t"+ getStatus() + "\t"+bonus + "\t\t"+getEquipment().getDescription();
 	}
+	
+	
+	public String getDetailForTeam() {
+		return getTeamBase()+"\t设计师\t"+getBonus();
+	}
 }
