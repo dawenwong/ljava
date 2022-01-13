@@ -124,15 +124,36 @@ public class TeamService {
 	/**
 	 * 
 	 * <p>Title: removeMember</p>  
-	 * <p>Description: </p>  
+	 * <p>Description:根据memberId从团队中删除该成员 </p>  
 	 * 2022年1月12日
 	 * @param memberId
 	 * void
 	 */
-	public void removeMember(int memberId) {
+	public void removeMember(int memberId) throws TeamException{
+		int i = 0;
+		for(;i < total;i++) { 
+			// 第一种退出情况，找到了break退出
+			//第二种退出情况，i =或> total了退出，意味着没找到
+			if(team[i].getMemberId() == memberId) {
+				team[i].setStatus(Status.FREE);
+				break;
+			}
+		}
+		// 未找到指定memberId的情况，删除失败
+		if(i == total ) {
+			throw new TeamException("找不到指定memberId的员工，删除失败");
+		}
+		
+		//后面的向前移，填补被删除的位置
+		for(int j = i;j < total-1;j++) {
+			team[j] = team[j+1];
+		}
+		
+//		team[total-1] = null;
+//		total--;
+		team[--total] = null;
 		
 	}
-	
 	
 	
 }
