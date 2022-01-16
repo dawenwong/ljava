@@ -23,10 +23,13 @@ public class SaleTicketSafetyByExtendsThread {
 }
 
 class Window5 extends Thread{
-    public static int ticket = 100;
+    private static int ticket = 100;
+//    private Object obj  = new Object(); //错误，因为实例化了三个window对象，当做锁的话，就有三把不同的锁
+    private static Object obj  = new Object(); //加上static就可以了，只在类加载时，实例化一次
     @Override
     public void run() {
         while (true){
+//          synchronized(obj){
             synchronized(Window5.class){  //“类.class”,万物皆对象，class也是对象，可以将类当做同步监视器
                                          //因为类只在内存中加载一次，因此只有一个是唯一的
                 if(ticket > 0){
