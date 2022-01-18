@@ -39,7 +39,7 @@ class Account{
         super();
         this.balance = balance;
     }
-    public void deposit(double amt){
+    public  synchronized void deposit(double amt){
         if(amt > 0){
             balance += amt;
             try {
